@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+.header{
+    background-image: url(h_img.jpg);
+    width: 800px;
+    height: 400px;
+    position: center;
+}
+.service{
+    background-image: url(s_image.jpg);
+    color: white;
+    size: 10px;
+}
