@@ -2,7 +2,7 @@
 # Author : Abdihakim Muhumed
 The Project is meant to create a website to act as a blog for the Delani Studio .The website will allow users to know more about Delani Studio and also give feedback to the site about how they see the products and services of Delani Studio.
 # Setup Instructions
-Click this link to open the application : https://abdihakim-muhumed.github.io/Delani-studio 
+Click this link to view the site: https://abdihakim-muhumed.github.io/Delani-studio 
 # Technologies
 1.HTML
 2.CSS
