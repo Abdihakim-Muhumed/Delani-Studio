@@ -3,12 +3,17 @@ body{
 }
 .header{
     background-image: url(h_img.jpg);
-    width: 800px;
-    height: 400px;
-    position: center;
+    color: white;
+}
+.welcome{
+    font-size: 40px;
+}
+.sub-about{
+    font-size: 10px;
 }
 .service{
     background-image: url(s_image.jpg);
     color: white;
-    size: 10px;
+    font-size: 10px;
+    text-size-adjust: 5px;
 }
