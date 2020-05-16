@@ -61,14 +61,26 @@ body{
     height: fit-content;
     margin: 0 auto;
 }
-#ddp{
+#design{
     margin-right: 250px;
-    padding-left: 20px;
     width: 70px;
     height: 70px;
+    margin-left: 0px;
 }
-#servicedisc{
+#development{
+    margin-right: 250px;
+    width: 70px;
+    height: 70px;
+    margin-left: 22px;
+}
+#product{
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+}
+#icondisc{
     text-align: left;
+    font-size: 18px;
 }
 #name{
     width: 300px;
