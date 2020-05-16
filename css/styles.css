@@ -5,29 +5,37 @@ body{
     color: white;
     background-image: url(h_img.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin: 20px;
 }
 .header{
     padding: 220px;
+    padding-top: 170px;
+    padding-bottom: 60px;
 }
 .disc{
-    font-size: 10px;
+    font-size: 13px;
 }
-.mousepointer{
-
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#mousepointer{
+    width: 20px;
+    height: 50px;
+    padding-bottom: 20px;
 }
 .welcome{
     font-size: 40px;
-    margin: 20px;
 }
+
 .sub-about{
-    font-size: 10px;
+    font-size: 13px;
 }
 .services{
     background-image: url(s_image.jpg);
     color: white;
-    font-size: 10px;
+    font-size: 13px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 150px;
@@ -45,6 +53,36 @@ body{
     margin-bottom: 20px;
     margin-left: 10px;
 }
+
+.whatwedo{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+#design{
+    margin-right: 280px;
+    width: 70px;
+    height: 70px;
+    margin-left: 0px;
+}
+#development{
+    margin-right: 0px;
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+}
+#product{
+    width: 70px;
+    height: 70px;
+    margin-left: 300px;
+}
+#icondisc{
+    text-align: left;
+    font-size: 18px;
+}
+.producem{
+    margin-left: 250px;
+}
 .contact{
     height: 400px;
     background-image: url(c_image.jpg);
@@ -56,34 +94,11 @@ body{
     padding-bottom: 50px;
     margin: 20px;
 }
-.whatwedo{
-    width: fit-content;
-    height: fit-content;
-    margin: 0 auto;
-}
-#design{
-    margin-right: 250px;
-    width: 70px;
-    height: 70px;
-    margin-left: 0px;
-}
-#development{
-    margin-right: 250px;
-    width: 70px;
-    height: 70px;
-    margin-left: 22px;
-}
-#product{
-    width: 70px;
-    height: 70px;
-    margin-left: 40px;
-}
-#icondisc{
-    text-align: left;
-    font-size: 18px;
+.feedback{
+
 }
 #name{
-    width: 300px;
+    width: 350px;
     height: 23px;
     margin-right: 40px;
     background: transparent;
@@ -91,18 +106,20 @@ body{
     
 }
 #email{
-    width: 270px;
+    width: 295px;
     height: 23px;
     background: transparent;
    color: white;
 }
 #input{
-    width: 600px;
+    width: 680px;
     background: transparent;
     padding-bottom: 200px;
-    padding-left: 5px;
-    color: white;
+    padding-left: 4px;
 }
 ::placeholder{
     color: white;
+}
+.footer{
+    font-size: 10px;
 }
