@@ -7,27 +7,31 @@
         <script src="js/scripts.js"></script>
     </head>
     <body>
-        <div class="header">
-            <p><img src="images/logo.png" alt=""></p>
-            <div class="welcome">
-                <p>WELCOME</p>
-                <p>TO DELANI STUDIO</p>
-            </div>
-            
-            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-            <p><img src="images/mouse_click.png" alt=""></p>
-
-        </div>
+       <div>
+           <div class="headpage">
+                <div class="header">
+                    <p><img src="images/logo.png" alt=""></p>
+                    <div class="welcome">
+                        <p>WELCOME</p>
+                        <p>TO DELANI STUDIO</p>
+                    </div>
+                    <div class="disc">
+                        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                    </div>
+                </div>
+                <p><img src="images/mouse_click.png" alt=""></p>
+           </div>
+        
         <div class="about" >
-            <h2>ABOUT US</h2>
-            <div class="sub-about">
+           <h2>ABOUT US</h2>
+           <div class="sub-about">
                 <p>When you work with us, you are part of a team of committed collaborators.All aspects of our software development process are integrated,interactive and agile.</p>
                 <p>Our approach unifies design, development and product management to create exceptional products.</p>
                 <p>We start each project by understanding your business goals,the user's needs and the product requirements</p>
                 <p>Then we help translate them into effective and elegant solutions.</p>
             </div>
         </div>
-        <div class="service">
+        <div class="services">
             <h3>SERVICES</h3>
             <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
             <p>The outcome of this scoping session is a proposal or a high-level statement of work.</p>
@@ -37,40 +41,46 @@
             <h3> WHAT WE DO </h3>
             <table>
                 <tr>
-                    <td><p><img src="images/design_icon.png" alt=""><br>DESIGN</p></td>
-                    <td><p><img src="images/dev_icon.png" alt=""><br>DEVELOPMENT</p></td>
-                    <td><p><img src="images/product_icon.png" alt=""><br>PRODUCT MANAGEMENT</p></td>
+                    <td><img src="images/design_icon.png" id="ddp"><br><p id="servicedisc">DESIGN</p></td>
+                    <td><p><img src="images/dev_icon.png" id="ddp"><br>DEVELOPMENT</p></td>
+                    <td><p><img src="images/product_icon.png" id="ddp"><br>PRODUCT MANAGEMENT</p></td>
                 </tr>
             </table>
 
         </div>
-        <div>
-            <h3>PORTFOLIO</h3>
-            <table>
-                <tr>
-                    <td><img src="images/work4.jpg" alt=""></td>
-                    <td><img src="images/work3.jpg" alt=""></td>
-                    <td><img src="images/work2.jpg" alt=""></td>
-                    <td><img src="images/work1.jpg" alt=""></td>
-                </tr>
-                <tr>
-                    <td><img src="images/work5.jpg" alt=""></td>
-                    <td><img src="images/work6.jpg" alt=""></td>
-                    <td><img src="images/work7.jpg" alt=""></td>
-                    <td><img src="images/work8.jpg" alt=""></td>
-                </tr>
-            </table>
-        </div>
+            <div class="portfolio">
+                <h3>PORTFOLIO</h3>
+                <div>
+                    <p>
+                        <table>
+                            <tr>
+                                <td><img src="images/work4.jpg" id="work4"></td>
+                                <td><img src="images/work3.jpg" id="work4"></td>
+                                <td><img src="images/work2.jpg" id="work4"></td>
+                                <td><img src="images/work1.jpg" id="work4"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/work5.jpg" id="work4"></td>
+                                <td><img src="images/work6.jpg" id="work4"></td>
+                                <td><img src="images/work7.jpg" id="work4"></td>
+                                <td><img src="images/work8.jpg" id="work4"></td>
+                            </tr>
+                        </table>
+                    </p>
+                   
+                </div>
+                
+            </div>
         <div class="contact">
             <h3>CONTACT US</h3>
             <form class="feedback">
-                <label for=""><input type="text" placeholder="Name..." id="name"></label>
+                <label for="Name"></label><input type="text" placeholder="Name..." id="name"></label>
                 <label for="Email"><input type="email" id="email" placeholder="Email..."></label><br>
                 <label for="input"><input type="text" id="input"placeholder="Your message here..."></label>
             </form>
             
         </div>
-        <div>
+        <div class="icons">
             <p>
                 <img src="images/twitter.png">
                 <img src="images/dribble.png">
@@ -83,9 +93,11 @@
                 <img src="images/flickr.png">
             </p>
         </div>
-        <div>
+        <div class="footer">
             <p>DELANI STUDIO <br>2019</p>
         </div>
+       </div>
+    
     </body>
 
 </html>
