@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#discription1").hide();
+    $(".design").click(function(){
+        $("#discription1").toggle();
+        $(".design").toggle();
+    });   
+    $("#design").hover(function(){
+        $("#discription1").toggle();
+        $(".design").toggle();
+    });   
+});

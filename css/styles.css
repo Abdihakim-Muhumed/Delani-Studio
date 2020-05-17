@@ -5,16 +5,17 @@ body{
     color: white;
     background-image: url(h_img.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin: 20px;
 }
 .header{
     padding: 220px;
     padding-top: 170px;
     padding-bottom: 60px;
+    padding-left: 252px;
 }
 .disc{
-    font-size: 13px;
+    font-size: 12px;
 }
 #logo{
     width: 100px;
@@ -59,8 +60,12 @@ body{
     height: fit-content;
     margin: 0 auto;
 }
+#cells{
+    height: 200px;
+    align-content: center;
+}
 #design{
-    margin-right: 280px;
+    margin-right: 260px;
     width: 70px;
     height: 70px;
     margin-left: 0px;
@@ -69,19 +74,28 @@ body{
     margin-right: 0px;
     width: 70px;
     height: 70px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 #product{
     width: 70px;
     height: 70px;
     margin-left: 300px;
 }
+#discription1{
+    font-size: 13px;
+    text-align: center;
+    padding-right: 150px;
+}
 #icondisc{
     text-align: left;
     font-size: 18px;
+    
 }
-.producem{
-    margin-left: 250px;
+.development{
+    margin-left: 30px;
+}
+.product{
+    margin-left: 220px;
 }
 .contact{
     height: 400px;
@@ -106,7 +120,7 @@ body{
     
 }
 #email{
-    width: 295px;
+    width: px;
     height: 23px;
     background: transparent;
    color: white;
