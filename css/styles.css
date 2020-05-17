@@ -29,18 +29,20 @@ body{
 .welcome{
     font-size: 40px;
 }
-
+.about{
+    margin: 40px;
+}
 .sub-about{
-    font-size: 13px;
+    font-size: 15px;
 }
 .services{
     background-image: url(s_image.jpg);
     color: white;
-    font-size: 13px;
+    font-size: 15px;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 150px;
-    margin: 20px;
+    height: 300px;
+    margin: 40px;
 
 }
 .portfolio{
@@ -58,44 +60,59 @@ body{
 .whatwedo{
     width: fit-content;
     height: fit-content;
-    margin: 0 auto;
+    margin: 40px;
 }
 #cells{
-    height: 200px;
+    width: 350px ;
+    height: 100px;
     align-content: center;
 }
 #design{
-    margin-right: 260px;
-    width: 70px;
-    height: 70px;
-    margin-left: 0px;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
 }
 #development{
     margin-right: 0px;
-    width: 70px;
-    height: 70px;
-    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: 130px;
 }
 #product{
-    width: 70px;
-    height: 70px;
-    margin-left: 300px;
+    width: 50px;
+    height: 50px;
+    margin-left: 180px;
+}
+
+#icondisc{
+    text-align: left;
+    font-size: 12px;
+    
+}
+.development{
+    margin-left: 110px;
+}
+.designdisc{
+    margin-left: 103px;
+}
+.product{
+    margin-left: 140px;
 }
 #discription1{
     font-size: 13px;
     text-align: center;
-    padding-right: 150px;
+    padding-right: 0px;
 }
-#icondisc{
-    text-align: left;
-    font-size: 18px;
-    
+#discription2{
+    font-size: 13px;
+    text-align: center;
+    padding-right: 0px;
 }
-.development{
-    margin-left: 30px;
-}
-.product{
-    margin-left: 220px;
+#discription3{
+    font-size: 13px;
+    text-align: center;
+    padding-left: 0px;
 }
 .contact{
     height: 400px;
