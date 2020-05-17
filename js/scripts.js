@@ -41,7 +41,14 @@ $(document).ready(function(){
     });   
     $("form.feedback").submit(function(){
         var name = $("#name").val();
-        alert(name + ", we have received your message. Thank you for reaching out to us.");
+        var email = $("#email").val();
+        if (name.length == 0 || email.length == 0) {
+            alert("Enter name or email");
+        } else {
+            alert(name + ", we have received your message. Thank you for reaching out to us.");
+        }
+        
     });
     
 });
+
