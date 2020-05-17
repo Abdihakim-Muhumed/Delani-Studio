@@ -6,6 +6,7 @@
         <script src="js/jquery-3.5.1.js"></script>
         <script src="js/scripts.js"></script>
     </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <body>
        <div class="container">
            <div class="headpage">
@@ -33,10 +34,12 @@
             </div>
         </div>
         <div class="services">
-            <h3>SERVICES</h3>
-            <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
-            <p>The outcome of this scoping session is a proposal or a high-level statement of work.</p>
-            <p>Based on your requirements we can provide a complete offering or just the pieces you need.</p>
+            <div class="sub-services">
+                <h3>SERVICES</h3>
+                <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
+                <p>The outcome of this scoping session is a proposal or a high-level statement of work.</p>
+                <p>Based on your requirements we can provide a complete offering or just the pieces you need.</p>
+                </div>   
         </div>
         <div class="whatwedo">
             <h3> WHAT WE DO </h3>
@@ -105,16 +108,22 @@
                     <p>
                         <table>
                             <tr>
-                                <td><img src="images/work4.jpg" id="work4"></td>
-                                <td><img src="images/work3.jpg" id="work4"></td>
-                                <td><img src="images/work2.jpg" id="work4"></td>
-                                <td><img src="images/work1.jpg" id="work4"></td>
+                                <div class="pImages">
+                                    <td ><img src="images/work4.jpg" id="work4" class="work"><div class="projectName" id="4"></div></td>
+                                    <td ><img src="images/work3.jpg" id="work3" class="work"><div class="projectName" id="3"></div></td>
+                                    <td><img src="images/work2.jpg" id="work2" class="work"><div class="projectName" id="2"></div></td>
+                                    <td><img src="images/work1.jpg" id="work1" class="work"><div class="projectName" id="1"></div></td>
+                                </div>
+                                
                             </tr>
                             <tr>
-                                <td><img src="images/work5.jpg" id="work4"></td>
-                                <td><img src="images/work6.jpg" id="work4"></td>
-                                <td><img src="images/work7.jpg" id="work4"></td>
-                                <td><img src="images/work8.jpg" id="work4"></td>
+                                <div>
+                                    <td><img src="images/work5.jpg" id="work5" class="work"><div class="projectName" id="5"></div></td>
+                                    <td><img src="images/work6.jpg" id="work6" class="work"><div class="projectName" id="6"></div></td>
+                                    <td><img src="images/work7.jpg" id="work7" class="work"><div class="projectName" id="7"></div></td>
+                                    <td><img src="images/work8.jpg" id="work8" class="work"><div class="projectName" id="8"></div></td>
+                                </div>
+                               
                             </tr>
                         </table>
                     </p>
@@ -125,9 +134,11 @@
         <div class="contact">
             <h3>CONTACT US</h3>
             <form class="feedback">
-                <label for="Name"></label><input type="text" placeholder="Name..." id="name"></label>
-                <label for="Email"><input type="email" id="email" placeholder="Email..."></label><br>
-                <label for="input"><input type="text" id="input"placeholder="Your message here..."></label>
+                <input type="text" placeholder="Name..." id="name">
+                <input type="email" id="email" placeholder="Email..."><br>
+            </form>
+            <form class="feedback">
+                <input type="text" id="input"placeholder="Your message here...">
             </form>
             
         </div>

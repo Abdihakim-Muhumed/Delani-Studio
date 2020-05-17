@@ -1,8 +1,18 @@
-$(document).ready(function(){
-    $("#discription1").hide();
-    $("#discription2").hide();
-    $("#discription3").hide();
+//back-end
 
+
+//front-end
+$(document).ready(function(){
+    
+    for(var i=1; i<=8; i++){
+        $("#discription"+i).hide();
+        $("#"+ i).hide();
+    }
+    $("#work5").hover(function(){
+        $("#5").text("WORK5");
+        $("#5").show();
+    });
+    
     $("#design").click(function(){
         $("#discription1").toggle();
         $(".design").toggle();
@@ -29,5 +39,9 @@ $(document).ready(function(){
         $(".produce").toggle();
         $("#discription3").toggle();
     });   
+    $("form.feedback").submit(function(){
+        var name = $("#name").val();
+        alert(name + ", we have received your message. Thank you for reaching out to us.");
+    });
     
 });

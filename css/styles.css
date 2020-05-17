@@ -36,6 +36,7 @@ body{
     font-size: 15px;
 }
 .services{
+    position: relative;    
     background-image: url(s_image.jpg);
     color: white;
     font-size: 15px;
@@ -45,18 +46,12 @@ body{
     margin: 40px;
 
 }
-.portfolio{
-    width: fit-content;
-    height: fit-content;
-    margin: 0 auto;
-}
-#work4{
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
+.sub-services{
+    position: absolute;
+    top: 80px;
+    left: 50px;
 
+}
 .whatwedo{
     width: fit-content;
     height: fit-content;
@@ -114,6 +109,38 @@ body{
     text-align: center;
     padding-left: 0px;
 }
+.portfolio{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+.work{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.pImages{
+    position: relative;
+    text-align: center;
+}
+.cells2{
+   
+}
+.projectName{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    font-size: 40px;
+    color: rgb(234, 232, 240);
+    background-color: blue ;
+    text-align: center;
+   
+}
+
 .contact{
     height: 400px;
     background-image: url(c_image.jpg);
@@ -129,6 +156,7 @@ body{
 
 }
 #name{
+    margin-left: -20px;
     width: 350px;
     height: 23px;
     margin-right: 40px;
@@ -137,10 +165,11 @@ body{
     
 }
 #email{
-    width: px;
+  
+    width: 300px;
     height: 23px;
     background: transparent;
-   color: white;
+    color: white;
 }
 #input{
     width: 680px;
