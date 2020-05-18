@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    font-family: sans-serif;
 }
 .headpage{
     color: white;
@@ -59,7 +60,7 @@ body{
 }
 #cells{
     width: 350px ;
-    height: 100px;
+    height: 60px;
     align-content: center;
 }
 #design{
@@ -120,25 +121,22 @@ body{
     margin-bottom: 20px;
     margin-left: 10px;
 }
-.pImages{
+.image4{
     position: relative;
-    text-align: center;
+
 }
-.cells2{
-   
-}
-.projectName{
+.project-name{
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 20px;
-    width: 150px;
-    height: 150px;
-    border: 2px solid white;
+    border: 3px solid whitesmoke;
+    padding-top: 10px;
+    width: 185px;
+    height: 170px;
+    background: transparent;
+    color: rgb(60, 123, 143);
     font-size: 40px;
-    color: rgb(234, 232, 240);
-    background-color: blue ;
-    text-align: center;
-   
+    text-align: left ;
 }
 
 .contact{

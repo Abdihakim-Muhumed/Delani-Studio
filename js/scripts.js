@@ -1,17 +1,48 @@
 //back-end
-
-
+var i=1;
+var id1 = "#work";
+var id2 = "#"
 //front-end
 $(document).ready(function(){
     
-    for(var i=1; i<=8; i++){
+    for(i=1; i<=8; i++){
         $("#discription"+i).hide();
-        $("#"+ i).hide();
-    }
-    $("#work5").hover(function(){
-        $("#5").text("WORK5");
+        $("#"+ i).hide();    
+        $("#"+i).text("Project"+i);    
+    }     
+    $ ("#work4").hover(function(event){
+        event.preventDefault();
+        $("#4").show();
+    });
+    $ ("#work3").hover(function(event){
+        event.preventDefault();
+        $("#3").show();
+    });
+    $ ("#work2").hover(function(event){
+        event.preventDefault();
+        $("#2").show();
+    });
+    $ ("#work1").hover(function(event){
+        event.preventDefault();
+        $("#1").show();
+    });
+    $ ("#work5").hover(function(event){
+        event.preventDefault();
         $("#5").show();
     });
+    $ ("#work6").hover(function(event){
+        event.preventDefault();
+        $("#6").show();
+    });
+    $ ("#work7").hover(function(event){
+        event.preventDefault();
+        $("#7").show();
+    });
+    $ ("#work8").hover(function(event){
+        event.preventDefault();
+        $("#8").show();
+    });
+    
     
     $("#design").click(function(){
         $("#discription1").toggle();
@@ -43,7 +74,7 @@ $(document).ready(function(){
         var name = $("#name").val();
         var email = $("#email").val();
         if (name.length == 0 || email.length == 0) {
-            alert("Enter name or email");
+            alert("Name or email empty");
         } else {
             alert(name + ", we have received your message. Thank you for reaching out to us.");
         }
