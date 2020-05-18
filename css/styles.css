@@ -134,6 +134,7 @@ body{
     width: 185px;
     height: 170px;
     background: transparent;
+    opacity: 100%;
     color: rgb(60, 123, 143);
     font-size: 40px;
     text-align: left ;
@@ -144,14 +145,15 @@ body{
     background-image: url(c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: whitesmoke;
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 50px;
     margin: 20px;
+   
 }
 .feedback{
-
+    color: whitesmoke;
 }
 #name{
     margin-left: -20px;
@@ -176,7 +178,7 @@ body{
     padding-left: 4px;
 }
 ::placeholder{
-    color: white;
+    color: whitesmoke;
 }
 .footer{
     font-size: 10px;

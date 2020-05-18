@@ -3,43 +3,34 @@ var i=1;
 var id1 = "#work";
 var id2 = "#"
 //front-end
-$(document).ready(function(){
-    
+$(document).ready(function(){   
     for(i=1; i<=8; i++){
         $("#discription"+i).hide();
         $("#"+ i).hide();    
         $("#"+i).text("Project"+i);    
     }     
-    $ ("#work4").hover(function(event){
-        event.preventDefault();
+    $ ("#work4").hover(function(){
         $("#4").show();
     });
-    $ ("#work3").hover(function(event){
-        event.preventDefault();
+    $ ("#work3").hover(function(){
         $("#3").show();
     });
-    $ ("#work2").hover(function(event){
-        event.preventDefault();
+    $ ("#work2").hover(function(){
         $("#2").show();
     });
-    $ ("#work1").hover(function(event){
-        event.preventDefault();
+    $ ("#work1").hover(function(){
         $("#1").show();
     });
-    $ ("#work5").hover(function(event){
-        event.preventDefault();
+    $ ("#work5").hover(function(){
         $("#5").show();
     });
-    $ ("#work6").hover(function(event){
-        event.preventDefault();
+    $ ("#work6").hover(function(){
         $("#6").show();
     });
-    $ ("#work7").hover(function(event){
-        event.preventDefault();
+    $ ("#work7").hover(function(){
         $("#7").show();
     });
-    $ ("#work8").hover(function(event){
-        event.preventDefault();
+    $ ("#work8").hover(function(){
         $("#8").show();
     });
     
