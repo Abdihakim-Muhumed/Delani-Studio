@@ -134,8 +134,7 @@ body{
     width: 185px;
     height: 170px;
     background: transparent;
-    opacity: 100%;
-    color: rgb(60, 123, 143);
+    color: whitesmoke;
     font-size: 40px;
     text-align: left ;
 }
